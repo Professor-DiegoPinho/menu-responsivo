@@ -4,24 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu site</title>
+  <title>Menu Responsivo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <navbar class="navbar">
-    <img class="logo" src="logo.png" alt="logo">
-    <a href="#" class="hamburguer-menu">
+  <nav class="navbar">
+    <img src="logo.png" alt="logo">
+    <a href="#" class="toggle-button">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
     </a>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </navbar>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
